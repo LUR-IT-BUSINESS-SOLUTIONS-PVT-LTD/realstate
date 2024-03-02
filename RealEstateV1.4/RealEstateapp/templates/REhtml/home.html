@@ -1,0 +1,315 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- Carousel Code Started -->
+
+  <main>
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active rounded-circle" aria-label="Slide 1" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="rounded-circle"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="rounded-circle"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{% static 'images/house.jpg' %}" alt="" width="100%" height="100%" />
+
+          <div class="carousel-caption crsl-cntnt">
+            <h1 class="display-3"><span>SBDREAM</span> PROPERTIES</h1>
+            <p class="opacity-75">OPEN PLOTS APARTMENTS & VILLAS</p>
+            <p>
+              <div class="square">
+                <div class="squarebox">
+                  <button type="button"><h3>Explore<br />more</h3></button>
+                </div>
+              </div>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'images/Apr.png' %}" alt="" width="100%" height="730px" />
+
+          <div class="carousel-caption crsl-cntnt">
+            <h1 class="display-3"><span>YOSHITHA</span></h1>
+            <p class="opacity-75">HOUSING & INFRA</p>
+            <p>
+              <div class="square">
+                <div class="squarebox">
+                  <button type="button"><h3>Explore<br />more</h3></button>
+                </div>
+              </div>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'images/plot1.webp' %}" alt="" width="100%" height="730px" />
+
+          <div class="carousel-caption crsl-cntnt">
+            <h1 class="display-3"><span>PREMIUM VILLA PLOTS</span></h1>
+            <p class="opacity-75">FOR SALE</p>
+            <p>
+              <div class="square">
+                <div class="squarebox">
+                  <button type="button"><h3>Explore<br />more</h3></button>
+                </div>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <!-- Carousel code Ended -->
+  <br/><br/>
+  <!-- about us start -->
+  <div class="container-fluid row d-flex p-3">
+    <div class="col abt-cntnt">
+      <h4 class="abt-sub">WELCOME TO SBDREAMS PROPERTIES</h4>
+      <h1 style="margin-top: 10px;">We Bring a World-Class Benchmark</h1>
+      <p style="margin-top: 30px;">
+        {% comment %}Virtusa Life Spaces is a green-habitat development firm,<br />
+        working relentlessly to develop affordable world-class <br />residential townships, commercial complexes delivering the<br /> best to our customers, while giving a new dimension <br />to the Indian housing development.{% endcomment %}SB Dream Properties has been in the Real Estate Industry serving guests’ requirements for over 20 Years. Our headliners have deep roots in real estate power that gauge further than Two Decades and understand the value of property power. With their vast experience, they help guide and consult our agents and guests to make the right opinions during the Buy & Sale process.
+
+        Thus, our agents are able of handling deals of immense size and complexity.
+
+        This has crowned in generations of families entrusting their real estate needs with our company. In our term, we’ve managed and answered numerous grueling and complex deals to the satisfaction of all parties involved especially that of our guests. Our knowledge and moxie is vital in helping you achieve your real estate pretensions. This has redounded in thousands of satisfied Clients.
+      </p>
+    </div>
+
+    <div class="col abt-imgs">
+      <img src="{% static 'images/about_1.png' %}" class="img-responsive" width="100%" class="shadow" alt="" />
+
+      <div class="d-flex row m-3">
+        <img src="{% static 'images/about_2.png' %}" class="img-responsive" width="290px" height="230px" class="shadow" alt="" />
+
+        <img src="{% static 'images/about_3.png' %}" class="img-responsive" width="290px" height="200px" class="shadow" alt="" />
+      </div>
+    </div>
+    <div class="container m-4 p-4">
+      <div class="card border-0 w-85 abt-content">
+        <p>Yoshitha housing and infra private limited is involved in real estate activities. this includes buying, selling, renting and developing land, building or appartments. Yoshitha emerged as the fastest developing real estate company in both telangana and vijayawada. Yoshitha’s stellar estate, Yoshitha’s supreme zone, eminent empire, dharani enclave, green valley, neel gardens, SSR green meadows are projects under Yoshitha housing and infra private limited. Yoshitha’s stellar estate is a project done for selling open flats in sadashivpet.</p>
+        <p>As hyderabad is rapidly developing and investing in some of the top areas like Sadashivpet is really good. Yoshitha’s supreme zone is also a project done by yoshitha housing and infra private limited. Yoshitha housing and infra pvt ltd is a private incorporated on 21 september 2016. Directors of Yoshitha housing and infra pvt ltd are Ganadi Pranavi and Kamalakara Ganadi Rao.</p>
+        <p>SBdream properties is also involved in real estate. They help in guiding clients to make the right decisions. Managing director of SBdream properties is Someswara rao. Yoshitha housing and infra pvt ltd came with a real estate investment in Mumbai highway. Mumbai highway is the most happening place for investors in real estate ventures across the country and also for NRI clients. This highway produced stunning returns who invested in this area.</p>
+        <p>If anyone are interested in having your dream house , do follow Yoshitha housing and infra private limited and make your dream come true.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- about us end -->
+  <br /><br />
+  <!-- slide start -->
+
+  <div class="container-fluid sldr-main">
+    <div class="col-sm-12 text-center">
+      <h4 class="sldr-head"><span>OUR PROJECTS</span></h4>
+      <h2 class="sldr-title">A <span>Perfect Blend</span> Of Luxury & Serenity</h2>
+    </div>
+    {% comment %} <div class="main-card align-items-center">
+      {% endcomment %}
+      {% comment %} <section id="slider" class="container-fluid pt-5">
+        <div class="slider">
+          <div class="owl-carousel d-flex">
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="{% static 'images/zoom_1.jpg' %}" alt="" height="300px" width="100%" />
+              </div>
+              <div class="top-item">
+                <h3 class="top-description">Virtusa Lifespaces- Wisteria</h3>
+                <p>VIRTUSA WISTERIA is an astounding 10 - acre residential plotted development, situated at Choutuppal in the Yadadri - Bhuvanagiri district of Telangana.</p>
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="{% static 'images/zoom_2.jpg' %}" alt="" height="300px" width="100%" />
+              </div>
+              <div class="top-item">
+                <h3 class="top-description">Virtusa Lifespaces- Green Winds</h3>
+                <p>GreenWinds by Virtusa is a residential plotting project designed for peace and prosperity. The sprawling nature that surrounds it will make each moment worthwhile, and the strategic location at Kadthal town, Srisailam Highway will make every rupee grow without bounds.</p>
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="{% static 'images/zoom_3.jpg' %}" alt="" height="300px" width="100%" />
+              </div>
+              <div class="top-item">
+                <h3 class="top-description">Virtusa Lifespaces- Triton</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius at minima, dolorem doloribus iure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> {% endcomment %}
+      <section id="slider" class="pt-5">
+        <div class="container">
+          <div class="slider">
+            <div class="owl-carousel d-flex">
+              <div class="slider-card">
+                <div class="d-flex justify-content-center align-items-center mb-4">
+                  <img src="{% static 'images/zoom_1.jpg' %}" height="300px" width="100%" alt />
+                </div>
+                <div class="top-item">
+                  <h3 class="top-description">SBDREAMS PROPERTIES- Wisteria</h3>
+                  <p>SBDREAMS WISTERIA is an astounding 10 - acre residential plotted development, situated at Choutuppal in the Yadadri - Bhuvanagiri district of Telangana.</p>
+                </div>
+              </div>
+
+              <div class="slider-card">
+                <div class="d-flex justify-content-center align-items-center mb-4">
+                  <img src="{% static 'images/zoom_2.jpg' %}" height="300px" width="100%" alt />
+                </div>
+                <div class="top-item">
+                  <h3 class="top-description">SBDREAMS PROPERTIES- Green Winds</h3>
+                  <p>GreenWinds by SBDREAMS is a residential plotting project designed for peace and prosperity. The sprawling nature that surrounds it will make each moment worthwhile, and the strategic location at Kadthal town, Srisailam Highway will make every rupee grow without bounds.</p>
+                </div>
+              </div>
+
+              <div class="slider-card">
+                <div class="d-flex justify-content-center align-items-center mb-4">
+                  <img src="{% static 'images/zoom_3.jpg' %}" height="300px" width="100%" alt />
+                </div>
+                <div class="top-item">
+                  <h3 class="top-description">SBDREAMS PROPERTIES- Triton</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius at minima, dolorem doloribus iure</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <div class="d-flex justify-content-center align-items-center mb-4">
+                  <img src="{% static 'images/zoom_3.jpg' %}" height="300px" width="100%" alt />
+                </div>
+                <div class="top-item">
+                  <h3 class="top-description">SBDREAMS PROPERTIES - Triton</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius at minima, dolorem doloribus iure</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {% comment %}
+      <div class="sldr-cards">
+        <img src="{% static 'images/zoom_1.jpg' %}" alt="" height="350px" width="70%" />
+      </div>
+
+      <div class="sldr-blogdata">
+        <h3 class="sldr-blogdescription">Virtusa Life Spaces Wisteria</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam obcaecati veritatis exercitationem tempore necessitatibus? Nisi, sequi doloribus consequuntur mollitia quas aut quo neque natus eos.</p>
+      </div> {% endcomment %}
+      {% comment %}
+    </div> {% endcomment %}
+  </div>
+
+  <!-- slide end -->
+  <br /><br />
+
+  <!-- Quote card start -->
+  <div class="container bg-dark p-3" style="max-width: 60%;">
+    <h3 class="text-center text-white mb-3">"Some People look for a beautiful place. <br /> We SBDREAMS PROPERTIES make every place beautiful"</h3>
+    <button class="qu-btn">ESTIMATE QUOTE</button>
+  </div>
+  <!-- Quote card end -->
+  <br /><br />
+  <!-- Happy Clients card start -->
+
+  <div class="row m-5">
+    <div class="col-md-6">
+      <div class="btm-crsl-card">
+        <div id="carouselExampleIndicators" class="carousel slide rounded">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="{% static 'images/img3.jpeg' %}" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="{% static 'images/img4.jpeg' %}" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="{% static 'images/img5.jpeg' %}" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <div class="hpy-clnts-btns bottom-0">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card-body hpy-clnts">
+        <p class="">Happy Clients</p>
+        <h2 class="fw-bold"><span>100% of our Clients</span><br />give <br /> <span>Positive reviews</span></h2>
+        <p class="cntnt">
+          We provide the best design, build & market <br /> residential and commercial complexes of <br /> international quality for our customers.
+        </p>
+        <p class="cstr-rate">Customer Ratings</p>
+        <p class="star">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Happy Clients card end -->
+
+  <br /><br />
+
+  <!-- News and Events Slider card start -->
+  <div class="container">
+    <section id="slider" class="pt-5">
+      <div class="container-owl">
+        <h4 class="sldr-head" style="color: black;"><span>EXPLORE THE LATEST</span></h4>
+        <h2 class="sldr-title" style="color: black;"><span>News</span> & Events</h2>
+        <div class="slider">
+          <div class="owl-carousel">
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="{% static 'images/img1.jpeg' %}" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>HTML CSS3 Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="{% static 'images/img2.jpeg' %}" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>WordPress Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="{% static 'images/img3.jpeg' %}" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>PHP MySQL Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="{% static 'images/img4.jpeg' %}" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>Javascript Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="{% static 'images/img5.jpeg' %}" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>Bootstrap Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- News and Events Slider card end -->
+  <br /><br /><br />
+{% endblock %}

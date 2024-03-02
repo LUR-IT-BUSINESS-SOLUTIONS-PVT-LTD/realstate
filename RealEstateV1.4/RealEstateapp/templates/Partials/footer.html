@@ -1,0 +1,70 @@
+{% load static %}
+<div class="container-fluid ftr-cntct-container">
+  <div class="ftr-cntct-content">
+    <h1>Lets build your dream home together</h1>
+  </div>
+  <div class="ftr-cntct-contact-info">
+    <div class="ftr-cntct-box1">
+      <div class="img">
+        <img src="{% static 'images/icons/call.jpg' %}" alt="" width="40px" height="38px" />
+      </div>
+      <h2>Talk to us</h2>
+      <p>
+        Experience premium living for yourself.<br />
+        Call us to find out more.
+      </p>
+      <a href="#">+91 98490 86115</a>
+    </div>
+    <div class="ftr-cntct-box">
+      <div class="img">
+        <img src="{% static 'images/icons/mail.jpg' %}" alt="" class="ftr-cntct-img" width="45px" height="25px" />
+      </div>
+      <h2>Email Us</h2>
+      <p>
+        We Assure the Highest Level of Satisfaction.<br />
+        Mail us to find out more.
+      </p>
+      <a href="#">infosbdream@gmail.com</a>
+    </div>
+  </div>
+</div>
+<footer class="mainFooter bottom-0">
+  <div class="container d-flex">
+    <div class="col-sm-3">
+      <p>For live updates on property availability in our ventures, please download the SBDREAMS PROPERTIES App from</p>
+      <p style="margin-bottom: 0;">
+        <a href="#" target="_blank"><img src="{% static 'images/global-playstore.png' %}" alt="" /></a>
+        <a href="#" target="_blank"><img src="{% static 'images/appstore.png' %}" alt="" /></a>
+      </p>
+    </div>
+    <div class="col-sm-9">
+      <ul class="footerlinks">
+        <li>
+          <a href="{% url 'home' %}">home</a>
+        </li>
+        <li>
+          <a href="{% url 'aboutus' %}">about us</a>
+        </li>
+        <li>
+          <a href="{% url 'ourproject' %}">our projects</a>
+        </li>
+        <li>
+          <a href="{% url 'newsandevent' %}">news & events</a>
+        </li>
+        <li>
+          <a href="{% url 'nricorner' %}">NRI Corner</a>
+        </li>
+        <li>
+          <a href="{% url 'happyclients' %}">happy clients</a>
+        </li>
+        <li>
+          <a href="{% url 'video' %}">videos</a>
+        </li>
+        <li>
+          <a href="{% url 'contact' %}">contact Us</a>
+        </li>
+      </ul>
+      <div class="copyrights text-center mt-4">&copy; 2024 SBDREAMS PROPERTIES, All Rights Reserved.</div>
+    </div>
+  </div>
+</footer>

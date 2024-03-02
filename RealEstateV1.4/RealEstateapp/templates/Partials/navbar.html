@@ -1,0 +1,48 @@
+{% load static %}
+<header class="hdr-main position-fixed position-absolute w-100">
+  <ul class="nav justify-content-end bg-dark">
+    <li class="nav-item">
+      <a class="hdr-text" href="#">View Registration Forms</a>
+    </li>
+    <li class="nav-item">
+      <a class="hdr-text" href="#">Call Us: +91 98490 86115</a>
+    </li>
+  </ul>
+
+  <nav id="navbar" class="navbar navbar-expand-lg">
+    <div class="container-fluid bg-transparent">
+      <a class="navbar-brand" href="#"><img src="{% static 'images/SBPlogo.png' %}" class="ms-5 logo-img"  /></a>
+
+      <button style="background-color: bisque;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-5">
+          <li class="nav-item">
+            <a class="nav-link nvbr-txt" aria-current="page" href="{% url 'home' %}">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nvbr-txt" href="{% url 'aboutus' %}">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nvbr-txt" href="{% url 'ourproject' %}">OUR PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nvbr-txt" href="{% url 'newsandevent' %}">NEWS & EVENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nvbr-txt" href="{% url 'nricorner' %}">NRI CORNER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nvbr-txt" href="{% url 'happyclients' %}">HAPPY CLIENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nvbr-txt" href="{% url 'video' %}">VIDEOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nvbr-txt" href="{% url 'contact' %}">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+{% comment %} <br /><br /><br /> {% endcomment %}
